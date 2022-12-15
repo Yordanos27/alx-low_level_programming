@@ -20,5 +20,4 @@ int _isupper(int c)
 	}
 
 	return (isupper);
-}
-delete thsi 
+} 
