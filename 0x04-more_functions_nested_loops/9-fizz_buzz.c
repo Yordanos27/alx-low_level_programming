@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * mian - Entry point
- * Reurn: Always 0
+ * main - Entry point
+ * Return: Always 0
  */
 int main(void)
 {
