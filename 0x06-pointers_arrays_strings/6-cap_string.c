@@ -14,7 +14,7 @@ char *cap_string(char *s)
 		if (i == 0 && (s[i] >= 'a' && s[i] <= 'z'))
 			s[i] -= 32;
 
-		if (check_separators(s[i]) && (s[i = 1] >= 'a' && s[i + 1] <= 'z'))
+		if (chech_separators(s[i]) && (s[i = 1] >= 'a' && s[i + 1] <= 'z'))
 			s[i + 1] -= 32;
 		i++;
 	}
@@ -23,12 +23,12 @@ char *cap_string(char *s)
 }
 
 /**
- * check_seperators - Separators of word: space, tabulation, new line,
+ * chech_separators - Separators of word space, tabulation, new line,
  * ,, ;m ., !, ?, ", ", (, ), {, and }
  * @c: an input character
  * Return: 1 if seerator, 0 otherwise
  */
-int check_seperators(char c)
+int chech_separators(char c)
 {
 	int i = 0;
 	char seperators[13] = { ' ', '\t', '\n', ',', ';', '.', '!', '?',
