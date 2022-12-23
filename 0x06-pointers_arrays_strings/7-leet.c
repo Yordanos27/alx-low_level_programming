@@ -18,6 +18,7 @@ char *leet(char *s)
 				s[i] = subs[j];
 
 		i++;
-i	}
+	}
+
 	return (s);
 }
