@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <main.h>
+#include <ctype.h>
 
 /**
  * main - A program that prints the minimum number of coins to
  * make change for an amount of money
  * @argc: The argument's counter
- * @argv: 1 if the number of arguments passed is not exactly
+ * @argv: The argument's values
+ * Return: 1 if the nu,ber of arguments passed is not exactly
  * or 0 in otherwise
  */
 int main(int argc, char **argv)
